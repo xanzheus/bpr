@@ -8,8 +8,8 @@ $(document).ready(() => {
         }
         const hinaan = ["Camtik xixi", "Gamteng hwhwwh", "Lucuu cmiw", "Centil ahha", "Bawuu wlee", "Ngangenin hhi"]
         const randHina = hinaan[Math.floor(Math.random() * hinaan.length)]
-        $("#jeneng").val("goblog")
-        $(".notif").text("goblog")
+        $("#jeneng").val("")
+        $(".notif").text("")
         return swal("Haii " + jeneng, "Kamu " + randHina)
     })
 })
